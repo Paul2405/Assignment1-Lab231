@@ -117,8 +117,8 @@
                                     <c:forEach items="${REQUESTS}" var="request" varStatus="counter">
                                         <tr>
                                             <td>${counter.count}</td>
-                                            <td>${request.getUserName()}</td>
                                             <td>${request.getResourceName()}</td>
+                                            <td>${request.getUserName()}</td>
                                             <td>${request.getRentDate()}</td>
                                             <td>${request.getStatus()}</td>
                                         <form action="RequestController" method="POST">
